@@ -30,7 +30,7 @@ console.log(`TOTAL A PAYER : ${total_payer} FCFA`)
 console.log("")
 console.log("BON DE REDUCTION : LEDUR")
 console.log(`MONTANT DE LA REMISE : ${montant_remise} FCFA`)
-console.log(`NET A PAYER : ${total_payer - montant_remise}`)
+console.log(`NET A PAYER : ${total_payer - montant_remise} FCFA`)
 
 console.log("")
 console.log(`Prix moyen TTC par produit : ${prix_moyen_ttc} FCFA`)
