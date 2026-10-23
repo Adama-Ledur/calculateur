@@ -4,7 +4,8 @@ const prix_unitaire = 250000
 const quantite = 2
 const frais_livraison = 5000
 const taux_tva = 18
-const montant_tva = (18 * prix_unitaire * quantite)/100
+const montant_total_produits = prix_unitaire * quantite
+const montant_tva = (18 * montant_total_produits)/100
 
 console.log("")
 console.log("===== REÇU DE COMMANDE =====")
@@ -14,5 +15,6 @@ console.log(`Prix unitaire : ${prix_unitaire} FCFA`)
 console.log(`Quantité : ${quantite}`)
 
 console.log("")
+console.log(`Montant des produits : ${montant_total_produits} FCFA`)
 console.log(`Livraison : ${frais_livraison} FCFA`)
 console.log(`TVA (${taux_tva} %) : ${montant_tva} FCFA`)
