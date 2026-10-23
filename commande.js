@@ -15,8 +15,8 @@ const prix_moyen_ttc = montant_ttc/quantite
 
 console.log("")
 console.log("===== REÇU DE COMMANDE =====")
-console.log(`Client : "${nom_client}"`)
-console.log(`Produit : "${nom_produit}*`)
+console.log(`Client : ${nom_client}`)
+console.log(`Produit : ${nom_produit}`)
 console.log(`Prix unitaire : ${prix_unitaire} FCFA`)
 console.log(`Quantité : ${quantite}`)
 
